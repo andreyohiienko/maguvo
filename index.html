@@ -1,0 +1,332 @@
+<!doctype html>
+<html>
+<head>
+	<!-- <script src = "https://maps.googleapis.com/maps/api/js"></script> -->
+	<meta charset="utf-8">
+	<meta name="description" content="seo content goes here">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>MaguvoHost</title>
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+	<link href="https://fonts.googleapis.com/css?family=Lato:700|Raleway:400,600,700" rel="stylesheet">
+	<link rel="stylesheet" href="dist/styles/main.css">
+</head>
+<body>
+
+	<header class="ba-header">
+		<div class="ba-header__container container">
+			<div class="row">
+				<div class="col-lg-9">
+					<nav class="ba-navigation navbar navbar-default">
+						<div class="navbar-header">
+							<a class="ba-logo navbar-brand" href="#">
+								<svg class="ba-logo__image" xmlns="http://www.w3.org/2000/svg" width="28.65" height="34.65" viewBox="0 0 28.65 34.65">
+									<path style="fill: none; stroke: #202242; stroke-width: 0.75px" d="M138.805,90H119.2A3.183,3.183,0,0,1,116,86.837v-21.4a0.814,0.814,0,0,1,.1-0.386l3.544-6.616A0.832,0.832,0,0,1,120.376,58h17.248a0.832,0.832,0,0,1,.735.438l3.544,6.616a0.814,0.814,0,0,1,.1.386v21.4A3.183,3.183,0,0,1,138.805,90Zm-1.682-30.354H120.877l-2.738,5.111h21.722Zm3.213,6.76H117.664v4.157h22.672V66.407Zm0,5.805H117.664v4.271h22.672V72.212Zm0,5.92H117.664v4.3h22.672v-4.3Zm0,5.948H117.664v2.757a1.525,1.525,0,0,0,1.531,1.516h19.61a1.525,1.525,0,0,0,1.531-1.516V84.08Zm-2.674,2.89a0.7,0.7,0,1,1,.712-0.7A0.71,0.71,0,0,1,137.662,86.97Zm0-.86a0.155,0.155,0,1,0,.157.155A0.157,0.157,0,0,0,137.662,86.109Zm-2.716.86a0.7,0.7,0,1,1,.712-0.7A0.709,0.709,0,0,1,134.946,86.97Zm0-.86a0.155,0.155,0,1,0,.157.155A0.157,0.157,0,0,0,134.946,86.109Zm-2.751.86a0.7,0.7,0,1,1,.712-0.7A0.709,0.709,0,0,1,132.2,86.97Zm0-.86a0.155,0.155,0,1,0,.157.155A0.157,0.157,0,0,0,132.2,86.109Zm-12.134,1.86a1.7,1.7,0,1,1,1.721-1.7A1.715,1.715,0,0,1,120.061,87.969Zm0-2.585a0.88,0.88,0,1,0,.889.88A0.886,0.886,0,0,0,120.061,85.384Zm0-6.926a1.7,1.7,0,1,1-1.721,1.7A1.715,1.715,0,0,1,120.061,78.458Zm0,2.585a0.88,0.88,0,1,0-.889-0.88A0.886,0.886,0,0,0,120.061,81.043ZM132.2,79.458a0.7,0.7,0,1,1-.711.7A0.709,0.709,0,0,1,132.2,79.458Zm0,0.86a0.155,0.155,0,1,0-.157-0.155A0.157,0.157,0,0,0,132.2,80.318Zm2.751-.86a0.7,0.7,0,1,1-.711.7A0.709,0.709,0,0,1,134.946,79.458Zm0,0.86a0.155,0.155,0,1,0-.157-0.155A0.156,0.156,0,0,0,134.946,80.318Zm2.716-.86a0.7,0.7,0,1,1-.712.7A0.709,0.709,0,0,1,137.662,79.458Zm0,0.86a0.155,0.155,0,1,0-.157-0.155A0.156,0.156,0,0,0,137.662,80.318Zm-17.6-7.621a1.7,1.7,0,1,1-1.721,1.7A1.715,1.715,0,0,1,120.061,72.7Zm0,2.585a0.88,0.88,0,1,0-.889-0.88A0.886,0.886,0,0,0,120.061,75.282ZM132.2,73.7a0.7,0.7,0,1,1-.711.7A0.709,0.709,0,0,1,132.2,73.7Zm0,0.86a0.155,0.155,0,1,0-.157-0.155A0.157,0.157,0,0,0,132.2,74.557Zm2.751-.86a0.7,0.7,0,1,1-.711.7A0.709,0.709,0,0,1,134.946,73.7Zm0,0.86a0.155,0.155,0,1,0-.157-0.155A0.156,0.156,0,0,0,134.946,74.557Zm2.716-.86a0.7,0.7,0,1,1-.712.7A0.709,0.709,0,0,1,137.662,73.7Zm0,0.86a0.155,0.155,0,1,0-.157-0.155A0.156,0.156,0,0,0,137.662,74.557Zm-17.6-7.728a1.7,1.7,0,1,1-1.721,1.7A1.715,1.715,0,0,1,120.061,66.829Zm0,2.585a0.88,0.88,0,1,0-.889-0.88A0.886,0.886,0,0,0,120.061,69.414ZM132.2,67.829a0.7,0.7,0,1,1-.711.7A0.709,0.709,0,0,1,132.2,67.829Zm0,0.86a0.155,0.155,0,1,0-.157-0.155A0.157,0.157,0,0,0,132.2,68.689Zm2.751-.86a0.7,0.7,0,1,1-.711.7A0.709,0.709,0,0,1,134.946,67.829Zm0,0.86a0.155,0.155,0,1,0-.157-0.155A0.156,0.156,0,0,0,134.946,68.689Zm2.716-.86a0.7,0.7,0,1,1-.712.7A0.709,0.709,0,0,1,137.662,67.829Zm0,0.86a0.155,0.155,0,1,0-.157-0.155A0.156,0.156,0,0,0,137.662,68.689Z" transform="translate(-114.675 -56.675)"/>
+								</svg>
+								Maguwo<span class="ba-logo__part">Host</span>
+							</a>
+
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#primary-navigation" aria-expanded="false">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+
+						</div>
+						<div class="collapse navbar-collapse" id="primary-navigation">
+							<ul class="nav navbar-nav navbar-right ba-navigation__list">
+								<li class="ba-navigation__item">
+									<a class="ba-navigation__link" href="#">Home</a>
+								</li>
+								<li class="ba-navigation__item">
+									<a class="ba-navigation__link" href="#">About</a>
+								</li>
+								<li class="ba-navigation__item">
+									<a class="ba-navigation__link" href="#">Pricing</a>
+								</li>
+								<li class="ba-navigation__item">
+									<a class="ba-navigation__link" href="#">Domain</a>
+								</li>
+								<li class="ba-navigation__item">
+									<a class="ba-navigation__link" href="#">Hosting</a>
+								</li>
+							</ul>
+						</div>
+					</nav>
+				</div>
+				<div class="ba-chat col-md-3 hidden-xs hidden-sm hidden-md">
+					<div class="row">
+						<div class="ba-chat__title col-xs-12">
+							Do you need help ? Just Email, Live chat or Call us
+						</div>
+						<div class="ba-chat__wrapp col-xs-12">
+							<button class="ba-chat__button">Live Chat</button>
+							<span class="ba-chat__separator"></span>
+							<a class="ba-chat__link" target="_blank" href="tel:62846534">6284-6534</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="ba-banner">
+			<div class="container text-center">
+				<div class="row">
+					<h2 class="ba-banner__title">Just a Proffesional Web Hosting Services</h2>
+					<h3 class="ba-banner__sub-title">modern  -  fast  -  reliable</h3>
+					<svg class="ba-banner__image" xmlns="http://www.w3.org/2000/svg" width="101.187" height="108.468" viewBox="0 0 101.187 108.468">
+						<path style="fill: #fff;" d="M737,648.016a10.5,10.5,0,0,1-5.407-16.82l-12.768-17.988a18.959,18.959,0,0,1-25.02-7.41l-23.769,9.428a10.543,10.543,0,1,1-2.048-5.138l23.768-9.427a18.948,18.948,0,0,1,20.65-23.186l4.811-17.952a10.519,10.519,0,1,1,5.345,1.432l-4.81,17.953a18.946,18.946,0,0,1,5.59,31.107L736.105,628A10.509,10.509,0,1,1,737,648.016Zm-76.124-36.431a4.979,4.979,0,1,0,3.525,6.1A4.988,4.988,0,0,0,660.872,611.585Zm66.451-59.848a4.984,4.984,0,1,0-6.1,3.52A4.987,4.987,0,0,0,727.323,551.737Zm-13.627,31.6a13.433,13.433,0,1,0,9.512,16.456A13.455,13.455,0,0,0,713.7,583.335ZM741,633.057a4.979,4.979,0,1,0,3.525,6.1A4.987,4.987,0,0,0,741,633.057Z" transform="translate(-649.063 -539.938)"/>
+					</svg>
+					<form action="#" method="POST" class="ba-form">
+						<input type="text" name="domain" class="ba-form__field" placeholder="Your Domain Name ..."><!-- 
+					--><select class="ba-form__select" name="domain">
+					<option value=".com">.com</option>
+					<option >.ua</option>
+					<option >.ru</option>
+						</select><!-- 
+					--><button type="submit" class="ba-form__button">Check Availability</button>
+				</form>
+			</div>
+		</div>
+	</div>
+</header>
+
+<main class="ba-main">
+	<section class="ba-about">
+		<div class="row ba-about__wrapper">
+			<div class="ba-about__webhost col-md-6 text-center">
+				<svg class="ba-about__svg" xmlns="http://www.w3.org/2000/svg" width="168" height="169" viewBox="0 0 168 169">
+					<path style="fill: #fff" d="M462.96,1189.87H401.312v30.52H440.62a2.305,2.305,0,1,1,0,4.61H357.38a2.305,2.305,0,1,1,0-4.61h39.308v-30.52H335.04A20.048,20.048,0,0,1,315,1169.86V1107.2a4.843,4.843,0,0,1,.029-0.51c0-.04.014-0.08,0.02-0.13,0.017-.12.037-0.24,0.064-0.37,0.011-.05.026-0.09,0.038-0.14,0.03-.12.062-0.23,0.1-0.34,0.017-.05.037-0.1,0.056-0.15,0.041-.11.085-0.21,0.134-0.32,0.014-.03.024-0.06,0.039-0.09l23.118-46.59a4.624,4.624,0,0,1,4.144-2.56H455.254a4.624,4.624,0,0,1,4.144,2.56l23.118,46.59c0.015,0.03.025,0.06,0.039,0.09,0.049,0.11.093,0.21,0.134,0.32,0.019,0.05.038,0.1,0.056,0.15,0.038,0.11.07,0.22,0.1,0.34,0.012,0.05.027,0.09,0.038,0.14,0.027,0.13.047,0.25,0.064,0.37,0.006,0.05.015,0.09,0.02,0.13a4.843,4.843,0,0,1,.029.51v62.66A20.048,20.048,0,0,1,462.96,1189.87Zm-10.574-124.64H345.614l-18.536,37.35H470.922Zm21.363,46.59h-149.5v29.88h149.5v-29.88Zm0,39.11h-149.5v18.93a10.8,10.8,0,0,0,10.789,10.78H462.96a10.8,10.8,0,0,0,10.789-10.78v-18.93ZM455.5,1170.47a4.365,4.365,0,1,1,4.374-4.37A4.377,4.377,0,0,1,455.5,1170.47Zm0-5.66a1.29,1.29,0,1,0,1.292,1.29A1.293,1.293,0,0,0,455.5,1164.81Zm-17.716,5.66a4.365,4.365,0,1,1,4.373-4.37A4.377,4.377,0,0,1,437.788,1170.47Zm0-5.66a1.29,1.29,0,1,0,1.291,1.29A1.294,1.294,0,0,0,437.788,1164.81Zm-17.946,5.66a4.365,4.365,0,1,1,4.374-4.37A4.376,4.376,0,0,1,419.842,1170.47Zm0-5.66a1.29,1.29,0,1,0,1.292,1.29A1.293,1.293,0,0,0,419.842,1164.81Zm-79.151,12.1a10.805,10.805,0,1,1,10.825-10.81A10.829,10.829,0,0,1,340.691,1176.91Zm0-17a6.19,6.19,0,1,0,6.2,6.19A6.2,6.2,0,0,0,340.691,1159.91Zm0-44.74a10.805,10.805,0,1,1-10.824,10.8A10.828,10.828,0,0,1,340.691,1115.17Zm0,16.99a6.19,6.19,0,1,0-6.2-6.19A6.2,6.2,0,0,0,340.691,1132.16Zm79.151-10.55a4.365,4.365,0,1,1-4.373,4.36A4.375,4.375,0,0,1,419.842,1121.61Zm0,5.65a1.29,1.29,0,1,0-1.291-1.29A1.287,1.287,0,0,0,419.842,1127.26Zm17.946-5.65a4.365,4.365,0,1,1-4.374,4.36A4.374,4.374,0,0,1,437.788,1121.61Zm0,5.65a1.29,1.29,0,1,0-1.292-1.29A1.286,1.286,0,0,0,437.788,1127.26Zm17.716-5.65a4.365,4.365,0,1,1-4.374,4.36A4.375,4.375,0,0,1,455.5,1121.61Zm0,5.65a1.29,1.29,0,1,0-1.291-1.29A1.287,1.287,0,0,0,455.5,1127.26Zm-134.335,93.13h9.76a2.305,2.305,0,1,1,0,4.61h-9.76A2.305,2.305,0,1,1,321.169,1220.39Zm17.725,0h9.761a2.305,2.305,0,1,1,0,4.61h-9.761A2.305,2.305,0,1,1,338.894,1220.39Zm109.94,0h9.76a2.305,2.305,0,1,1,0,4.61h-9.76A2.305,2.305,0,1,1,448.834,1220.39Zm16.7,0h9.76a2.305,2.305,0,1,1,0,4.61h-9.76A2.305,2.305,0,1,1,465.53,1220.39Z" transform="translate(-315 -1056)"/>
+				</svg>
+				<h2 class="ba-about__title">#1 Webhost Services</h2>
+				<p class="ba-about__content">
+					This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. 
+				</p>
+				<a href="#" class="ba-about__link">More</a>
+			</div>
+			<div class="col-md-6 ba-about__domain text-center">
+				<h1 class="ba-about__main-title">.com</h1>
+				<h2 class="ba-about__title">#1 Domain Services</h2>
+				<p class="ba-about__content">
+					This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. 
+				</p>
+				<a href="#" class="ba-about__link">More</a>
+			</div>
+		</div>
+	</section>
+
+	<section class="ba-features text-center">
+		<div class="container">
+			<div class="row">
+				<h2 class="ba-features__title">Our features</h2>
+				<h3 class="ba-features__sub-title">Our best features</h3>
+			</div>
+			<div class="row ba-features__slider">
+				<div class="ba-support col-lg-3 col-md-6 ba-features__slide">
+					<img src="dist/images/seo.png" alt="Live support" class="ba-features__image">
+					<h3 class="ba-support__title">Live Support</h3>
+					<p class="ba-support__content">
+						This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. um feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.
+					</p>
+				</div>
+				<div class="ba-support col-lg-3 col-md-6 ba-features__slide">
+					<img src="dist/images/seo1.png" alt="Cloud Technology" class="ba-features__image">
+					<h3 class="ba-support__title">Cloud Technology</h3>
+					<p class="ba-support__content">
+						This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. um feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.
+					</p>
+				</div>
+				<div class="ba-support col-lg-3 col-md-6 ba-features__slide">
+					<img src="dist/images/technology.png" alt="Hi Tech Database" class="ba-features__image">
+					<h3 class="ba-support__title">Hi Tech Database</h3>
+					<p class="ba-support__content">
+						This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. um feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.
+					</p>
+				</div>
+				<div class="ba-support col-lg-3 col-md-6 ba-features__slide">
+					<img src="dist/images/seo3.png" alt="Live Monitoring" class="ba-features__image">
+					<h3 class="ba-support__title">Live Monitoring</h3>
+					<p class="ba-support__content">
+						This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. um feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.
+					</p>
+				</div>
+				<div class="ba-support col-lg-3 col-md-6 ba-features__slide">
+					<img src="dist/images/seo.png" alt="Live support" class="ba-features__image">
+					<h3 class="ba-support__title">Live Support</h3>
+					<p class="ba-support__content">
+						This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. um feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.
+					</p>
+				</div>
+				<div class="ba-support col-lg-3 col-md-6 ba-features__slide">
+					<img src="dist/images/seo1.png" alt="Cloud Technology" class="ba-features__image">
+					<h3 class="ba-support__title">Cloud Technology</h3>
+					<p class="ba-support__content">
+						This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. um feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.
+					</p>
+				</div>
+				<div class="ba-support col-lg-3 col-md-6 ba-features__slide">
+					<img src="dist/images/technology.png" alt="Hi Tech Database" class="ba-features__image">
+					<h3 class="ba-support__title">Hi Tech Database</h3>
+					<p class="ba-support__content">
+						This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. um feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.
+					</p>
+				</div>
+				<div class="ba-support col-lg-3 col-md-6 ba-features__slide">
+					<img src="dist/images/seo3.png" alt="Live Monitoring" class="ba-features__image">
+					<h3 class="ba-support__title">Live Monitoring</h3>
+					<p class="ba-support__content">
+						This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. um feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.
+					</p>
+				</div>
+				<button class="ba-features__prev-arrow"><</button>
+				<button class="ba-features__next-arrow">></button>
+			</div>
+		</div>
+	</section>
+
+	<section class="ba-clients">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4">
+					<h3 class="ba-clients__title">Our Clients</h3>
+					<p class="ba-clients__content">
+						This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum.
+					</p>
+				</div>
+				<div class="col-lg-2 col-md-3 col-sm-6 text-center ba-clients__images ">
+					<img src="dist/images/tree-logo.jpg" alt="tree">
+				</div>
+				<div class="col-lg-2 col-md-3 col-sm-6 text-center ba-clients__images ">
+					<img src="dist/images/x-logo.jpg" alt="x">
+				</div>
+				<div class="col-lg-2 col-md-3 col-sm-6 text-center ba-clients__images ">
+					<img src="dist/images/u-logo.jpg" alt="u-logo">
+				</div>
+				<div class="col-lg-2 col-md-3 col-sm-6 text-center ba-clients__images ">
+					<img src="dist/images/fish-logo.jpg" alt="fish-logo">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-4 col-md-6">
+					<div class="ba-clients__wrapper">
+						<q class="ba-clients__comment">
+							This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. 
+						</q>
+						<h4 class="ba-clients__name">
+							-Anna
+						</h4>
+						<img src="dist/images/girl.png" alt="girl" class="ba-clients__photo">
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6">
+					<div class="ba-clients__wrapper">
+						<q class="ba-clients__comment">
+							This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. 
+						</q>
+						<h4 class="ba-clients__name">
+							-Anna
+						</h4>
+						<img src="dist/images/girl.png" alt="girl" class="ba-clients__photo">
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6">
+					<div class="ba-clients__wrapper">
+						<q class="ba-clients__comment">
+							This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. 
+						</q>
+						<h4 class="ba-clients__name">
+							-Anna
+						</h4>
+						<img src="dist/images/girl.png" alt="girl" class="ba-clients__photo">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="ba-pricing">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8">
+					<h3 class="ba-pricing__title">
+						Do you want to view Plans &amp; Pricing ?
+					</h3>
+					<p class="ba-pricing__content">
+						Follow the button in the right section.
+					</p>
+				</div>
+				<div class="col-md-4 text-center">
+					<button class="ba-pricing__button">Plans &amp; Pricing</button>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="ba-location">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-10">
+					<div class="ba-location__map">
+						<span class="ba-location__title">Yogyakarta, Indonesia
+							55282</span>
+						</div>
+					</div>
+					<div class="col-lg-2 visible-lg text-right">
+						<nav class="ba-supporting-navigation nav navbar-default">
+							<h4 class="ba-supporting-navigation__title">Navigation</h4>
+							<ul class="ba-supporting-navigation__list">
+								<li class="ba-supporting-navigation__item">
+									<a href="#" class="ba-supporting-navigation__link">Home</a>
+								</li>
+								<li class="ba-supporting-navigation__item">
+									<a href="#" class="ba-supporting-navigation__link">About</a>
+								</li>
+								<li class="ba-supporting-navigation__item">
+									<a href="#" class="ba-supporting-navigation__link">Domain</a>
+								</li>
+								<li class="ba-supporting-navigation__item">
+									<a href="#" class="ba-supporting-navigation__link">Hosting</a>
+								</li>
+								<li class="ba-supporting-navigation__item">
+									<a href="#" class="ba-supporting-navigation__link">Contact</a>
+								</li>
+							</ul>
+						</nav>
+						<a href="https://twitter.com" class="ba-location__link">
+							<i class="fa fa-twitter ba-location__icon"></i>
+						</a>
+						<a href="https://instagram.com" class="ba-location__link">
+							<i class="fa fa-instagram ba-location__icon"></i>
+						</a>
+						<a href="https://google.com" class="ba-location__link">
+							<i class="fa fa-google-plus ba-location__icon"></i>
+						</a>
+						<a href="#" class="ba-location__back">Back to Top</a>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer class="ba-footer text-center">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<svg class="ba-footer__logo" xmlns="http://www.w3.org/2000/svg" width="31" height="30" viewBox="0 0 31 30">
+						<path style="fill: #fff;" d="M712.864,3696a3.131,3.131,0,0,1-3.135-3.12,3.08,3.08,0,0,1,.281-1.29l-5.064-4.18a5.658,5.658,0,0,1-7.776-.2l-6.116,4.53a3.083,3.083,0,0,1,.217,1.14,3.135,3.135,0,1,1-3.135-3.12,3.164,3.164,0,0,1,1.932.66l6.116-4.53a5.558,5.558,0,0,1-.676-2.67,5.653,5.653,0,0,1,4.833-5.57v-5.52a3.135,3.135,0,1,1,1.65,0v5.52a5.625,5.625,0,0,1,4.009,8.5l5.064,4.18A3.124,3.124,0,1,1,712.864,3696Zm-24.728-4.6a1.48,1.48,0,1,0,1.485,1.48A1.482,1.482,0,0,0,688.136,3691.4Zm14.515-22.28a1.486,1.486,0,1,0-1.485,1.48A1.488,1.488,0,0,0,702.651,3669.12Zm-1.485,10.11a3.99,3.99,0,1,0,4.008,3.99A4,4,0,0,0,701.166,3679.23Zm11.7,12.17a1.48,1.48,0,1,0,1.486,1.48A1.482,1.482,0,0,0,712.864,3691.4Z" transform="translate(-685 -3666)"/>
+					</svg>
+					<p class="ba-footer__copyright">
+						Copyright 2014 Maguwohost by FikriStudio
+					</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script src="https://use.fontawesome.com/deafb404cd.js"></script>
+	<!-- <script src="dist/scripts/jquery-3.1.1.js"></script> -->
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDSjmcj2Cx9bXPqsizDS9hCziEsMEfNnvw"></script>
+	<!-- <script src="dist/scripts/bootstrap.min.js"></script> -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="dist/scripts/main.js"></script>   
+</body> 
+</html> 
